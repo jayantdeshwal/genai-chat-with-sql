@@ -39,7 +39,7 @@ if not api_key:
 # The 8B model is NOT powerful enough for this SQL agent.
 llm = ChatGroq(
     groq_api_key=api_key,
-    model_name="llama-3.1-70b-versatile", # <-- THIS IS THE CORRECT MODEL
+    model_name="llama-3.3-70b-versatile", # <-- THIS IS THE CORRECT MODEL
     streaming=True
 )
 
